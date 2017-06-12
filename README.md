@@ -1,11 +1,9 @@
 # Volt time picker
 
-__COMPONENT DESCRIPTION GOES HERE__
+_SIMPLE REACT SELECT TIME PICKER WITH STARTING TIME, ENDING TIME, STEPS, ON CHANGE AND FORMAT_
 
 
 ## Demo & Examples
-
-Live demo: [RodrigoSosa95.github.io/react-volt-time-picker](http://RodrigoSosa95.github.io/react-volt-time-picker/)
 
 To build the examples locally, run:
 
@@ -27,25 +25,35 @@ You can also use the standalone build by including `dist/react-volt-time-picker.
 npm install react-volt-time-picker --save
 ```
 
-
 ## Usage
-
-__EXPLAIN USAGE HERE__
-
 ```
 var VoltTimePicker = require('react-volt-time-picker');
 
-<VoltTimePicker>Example</VoltTimePicker>
+<VoltTimePicker
+  value={this.state.value}
+  start={moment().local().startOf('d').add(9, 'h')}
+  end={moment().local().startOf('d').add(21, 'h')}
+  onChange={value => this.handleHourChange(value)}
+/>
 ```
 
 ### Properties
 
-* __DOCUMENT PROPERTIES HERE__
+* _className: string_
+* _start: moment object_
+*_end: moment object_
+*_format: string (All supported moment.js formats)_
+*_label: string_
+*_onChange: function(hour: string)_
+*_steps: number_
+*_value: moment object to string_
 
 ### Notes
 
-__ADDITIONAL USAGE NOTES__
+_Required dependencies_
 
+*_moment_
+*_uuid_
 
 ## Development (`src`, `lib` and the build process)
 
@@ -55,7 +63,6 @@ To build, watch and serve the examples (which will also watch the component sour
 
 ## License
 
-__PUT LICENSE HERE__
+_MIT_
 
 Copyright (c) 2017 Rodrigo Sosa P.
-
