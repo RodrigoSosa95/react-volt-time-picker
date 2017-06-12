@@ -52,8 +52,8 @@ var VoltTimePicker = require('react-volt-time-picker');
 
 _Required dependencies_
 
-*_moment_
-*_uuid_
+* _moment_
+* _uuid_
 
 ## Development (`src`, `lib` and the build process)
 
