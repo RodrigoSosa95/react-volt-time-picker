@@ -1,0 +1,29 @@
+{
+  "name": "react-volt-time-picker",
+  "version": "0.0.0",
+  "description": "Volt time picker",
+  "main": "dist/react-volt-time-picker.min.js",
+  "homepage": "https://github.com/RodrigoSosa95/react-volt-time-picker",
+  "authors": [
+    "Rodrigo Sosa P"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
