@@ -41,12 +41,12 @@ var VoltTimePicker = require('react-volt-time-picker');
 
 * _className: string_
 * _start: moment object_
-*_end: moment object_
-*_format: string (All supported moment.js formats)_
-*_label: string_
-*_onChange: function(hour: string)_
-*_steps: number_
-*_value: moment object to string_
+* _end: moment object_
+* _format: string (All supported moment.js formats)_
+* _label: string_
+* _onChange: function(hour: string)_
+* _steps: number_
+* _value: moment object to string_
 
 ### Notes
 
